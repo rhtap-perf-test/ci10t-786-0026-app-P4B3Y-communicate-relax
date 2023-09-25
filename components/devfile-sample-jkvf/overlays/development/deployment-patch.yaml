@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-jkvf
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0026-tenant/ci10t-786-0026-app/devfile-sample-jkvf@sha256:78afbde37314105e8dc50c0f4d1553c7aee3ac529b4b033247e4d45755320134
+        name: my-nodejs
+        resources: {}
+status: {}
